@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const DonationCard = ({ card }) => {
-  const { picture, title, category, text, card_bg } = card;
+  const {id, picture, title, category, text, card_bg } = card;
   const categoryColor = {
     color: text,
     backgroundColor: card_bg,
@@ -14,22 +15,26 @@ const DonationCard = ({ card }) => {
   };
 
   return (
-    <div className="">
-      <figure>
-        <img src={picture} alt="Shoes" />
-      </figure>
-      <div className="card-body" style={cardBg}>
-        <h2
-          className="w-2/5 rounded text-sm font-medium flex justify-center p-"
-          style={categoryColor}
-        >
-          {category}
-        </h2>
-        <p className="card-title" style={titleColor}>
-          {title}
-        </p>
+    <Link to={`/donation/${id}`}>
+      <div className="card card-compact shadow-xl">
+        <figure>
+          <div>
+            <img src={picture} alt="Shoes" />
+          </div>
+        </figure>
+        <div className="card-body " style={cardBg}>
+          <h2
+            className="w-1/3 rounded text-sm font-medium flex justify-center p"
+            style={categoryColor}
+          >
+            {category}
+          </h2>
+          <p className="card-title" style={titleColor}>
+            {title}
+          </p>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
