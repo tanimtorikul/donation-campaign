@@ -1,0 +1,134 @@
+[
+  {
+    "picture": "https://i.ibb.co/8BM3vM5/Health.png",
+    "title": "Healthy Futures Initiative",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text": "#0052FF",
+    "category-btn-bg": "#0052FF33",
+    "description": "Provide clean water for children in need.",
+    "price": 200
+  },
+  {
+    "picture": "https://i.ibb.co/yQrBj2M/Education.png",
+    "title": "Quality Education Fund",
+    "category": "Education",
+    "category_bg": "#3498DB",
+    "card_bg": "#FF444A26",
+    "text": "#FF444A",
+    "category-btn-bg": "#FF444A",
+    "description": "Support quality education for all.",
+    "price": 300
+  },
+  {
+    "picture": "https://i.ibb.co/s581gT9/Clothing.png",
+    "title": "Warmth & Comfort Drive",
+    "category": "Clothing",
+    "category_bg": "#27AE60",
+    "card_bg": "#79C23F26",
+    "text": "#79C23F",
+    "category-btn-bg": "#79C23F",
+    "description": "Donate used clothing to those in need.",
+    "price": 250
+  },
+  {
+    "picture": "https://i.ibb.co/b1384g8/Food.png",
+    "title": "Nutritious Meals for All",
+    "category": "Food",
+    "category_bg": "#F39C12",
+    "card_bg": "#F8714726",
+    "text": "#F87147",
+    "category-btn-bg": "#F87147",
+    "description": "Support access to nutritious food for all.",
+    "price": 14.99
+  },
+  {
+    "picture": "https://i.ibb.co/b1384g8/Food.png",
+    "title": "Nutritious Meals for All",
+    "category": "Food",
+    "category_bg": "#F39C12",
+    "card_bg": "#F8714726",
+    "text": "#F87147",
+    "category-btn-bg": "#F87147",
+    "description": "Support access to nutritious food for all.",
+    "price": 14.99
+  },
+  {
+    "picture": "https://i.ibb.co/s581gT9/Clothing.png",
+    "title": "Warmth & Comfort Drive",
+    "category": "Clothing",
+    "category_bg": "#27AE60",
+    "card_bg": "#79C23F26",
+    "text": "#79C23F",
+    "category-btn-bg": "#79C23F",
+    "description": "Donate used clothing to those in need.",
+    "price": 250
+  },
+  {
+    "picture": "https://i.ibb.co/yQrBj2M/Education.png",
+    "title": "Quality Education Fund",
+    "category": "Education",
+    "category_bg": "#3498DB",
+    "card_bg": "#FF444A26",
+    "text": "#FF444A",
+    "category-btn-bg": "#FF444A",
+    "description": "Support quality education for all.",
+    "price": 300
+  },
+  {
+    "picture": "https://i.ibb.co/8BM3vM5/Health.png",
+    "title": "Healthy Futures Initiative",
+    "category": "Health",
+    "category_bg": "#0052FF",
+    "card_bg": "#0052FF26",
+    "text": "#FF5733",
+    "category-btn-bg": "#0052FF",
+    "description": "Provide clean water for children in need.",
+    "price": 200
+  },
+  {
+    "picture": "https://i.ibb.co/8BM3vM5/Health.png",
+    "title": "Healthy Futures Initiative",
+    "category": "Health",
+    "category_bg": "#0052FF",
+    "card_bg": "#0052FF26",
+    "text": "#FF5733",
+    "category-btn-bg": "#0052FF",
+    "description": "Provide clean water for children in need.",
+    "price": 200
+  },
+  {
+    "picture": "https://i.ibb.co/yQrBj2M/Education.png",
+    "title": "Quality Education Fund",
+    "category": "Education",
+    "category_bg": "#3498DB",
+    "card_bg": "#FF444A26",
+    "text": "#FF444A",
+    "category-btn-bg": "#FF444A",
+    "description": "Support quality education for all.",
+    "price": 300
+  },
+  {
+    "picture": "https://i.ibb.co/s581gT9/Clothing.png",
+    "title": "Warmth & Comfort Drive",
+    "category": "Clothing",
+    "category_bg": "#27AE60",
+    "card_bg": "#79C23F26",
+    "text": "#79C23F",
+    "category-btn-bg": "#79C23F",
+    "description": "Donate used clothing to those in need.",
+    "price": 250
+  },
+  {
+    "picture": "https://i.ibb.co/b1384g8/Food.png",
+    "title": "Nutritious Meals for All",
+    "category": "Food",
+    "category_bg": "#F39C12",
+    "card_bg": "#F8714726",
+    "text": "#F87147",
+    "category-btn-bg": "#F87147",
+    "description": "Support access to nutritious food for all.",
+    "price": 14.99
+  }
+]
