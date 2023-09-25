@@ -13,6 +13,7 @@ const DonationCard = ({ card }) => {
   const titleColor = {
     color: text,
   };
+  
 
   return (
     <Link to={`/donation/${id}`}>

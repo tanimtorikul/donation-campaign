@@ -1,7 +1,13 @@
-import React from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+import { saveDonationData } from "../../Utlity/LocalStorage";
+  
 
 const DonationDetails = () => {
+  const [donateBtn, setDonateBtn] = useState("Donate $");
+
   const donations = useLoaderData();
   const { id } = useParams();
   // console.log(donations, id);
@@ -10,6 +16,15 @@ const DonationDetails = () => {
   //   console.log(donation);
   const btnBgColor = {
     backgroundColor: donation.text,
+  };
+  const handleDonate = () => {
+    saveDonationData(idInt);
+    toast.success('You have donated succesfully!', {
+        autoClose: 1500, 
+      });
+
+    setDonateBtn("Donated $");
+    
   };
   return (
     <div className="px-4 lg:px-0">
@@ -23,15 +38,18 @@ const DonationDetails = () => {
 
         <div className="absolute bottom-0  p-6 flex items-center justify-center">
           <button
+            onClick={handleDonate}
             className="bg-[#FF444A] text-white px-4 py-2 rounded"
             style={btnBgColor}
           >
-            Donate ${donation.price}
+            {donateBtn}
+            {donation.price}
           </button>
         </div>
       </div>
       <h2 className="text-[40px] font-bold mt-14 mb-6">{donation.title}</h2>
       <p className="pb-40">{donation.description}</p>
+      <ToastContainer />
     </div>
   );
 };
