@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="navbar rounded-lg mt-2 flex gap-4 md:gap-0 flex-col md:flex-row justify-between items-center">
       <div className="flex-1">
         <Link to="/">
-          <img src="Logo.png" alt="" />
+          <img src="logo.png" alt="" />
         </Link>
       </div>
       <div className="flex-none">

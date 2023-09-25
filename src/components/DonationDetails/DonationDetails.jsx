@@ -8,6 +8,9 @@ const DonationDetails = () => {
   const idInt = parseInt(id);
   const donation = donations.find((donation) => donation.id === idInt);
   //   console.log(donation);
+  const btnBgColor = {
+    backgroundColor: donation.text,
+  };
   return (
     <div className="px-4 lg:px-0">
       <div className="relative">
@@ -16,10 +19,13 @@ const DonationDetails = () => {
           alt="Donation"
           className="w-full h-full rounded-lg"
         />
-        <div className="absolute mx-auto bottom-0 left-0 right-0 top-auto h-24 bg-black opacity-40"></div>
+        <div className="absolute rounded-lg mx-auto bottom-0 left-0 right-0 top-auto h-24 bg-black opacity-40"></div>
 
         <div className="absolute bottom-0  p-6 flex items-center justify-center">
-          <button className="bg-[#FF444A] text-white px-4 py-2 rounded">
+          <button
+            className="bg-[#FF444A] text-white px-4 py-2 rounded"
+            style={btnBgColor}
+          >
             Donate ${donation.price}
           </button>
         </div>
