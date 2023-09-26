@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const DonationSavedCard = ({ data }) => {
   const { id, picture, price, title, category, text, card_bg } = data;
   const cardBg = {
@@ -13,14 +15,12 @@ const DonationSavedCard = ({ data }) => {
   const btnBg = {
     backgroundColor: text,
   };
+
+  
   return (
-    <div className="shadow-lg rounded-lg h-[200px]  flex" style={cardBg}>
+    <div className="shadow-lg rounded-lg h-[200px] flex" style={cardBg}>
       <div className="w-1/3">
-        <img
-          className="w-full rouned-lg h-full object-cover"
-          src={picture}
-          alt=""
-        />
+        <img className="w-full h-full object-cover" src={picture} alt="" />
       </div>
       <div className="w-2/3 p-4">
         <h2
@@ -34,15 +34,15 @@ const DonationSavedCard = ({ data }) => {
           ${price}.00
         </p>
         <div className="flex gap-10">
-          <button
+         <Link to={`/donate/${id}`}>
+         <button
             style={btnBg}
             className="mt-4 text-white px-4 py-2 rounded-md hover:bg-blue-700"
           >
             View Details
           </button>
-          <button className="mt-4 bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-700">
-            Remove
-          </button>
+          </Link>
+         
         </div>
       </div>
     </div>

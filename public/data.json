@@ -50,7 +50,7 @@
   {
     "id": 5,
     "picture": "https://i.ibb.co/0sxDPz5/Food.jpg",
-    "title": "Nutritious Meals for All",
+    "title": "Nutrition Made Easy",
     "category": "Food",
     "category_bg": "#F39C12",
     "card_bg": "#F8714726",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "picture": "https://i.ibb.co/zbz87vK/Clothing.jpg",
-    "title": "Warmth & Comfort Drive",
+    "title": "Clothing Essentials Guide",
     "category": "Clothing",
     "category_bg": "#27AE60",
     "card_bg": "#79C23F26",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "picture": "https://i.ibb.co/1L4fn0F/Education.jpg",
-    "title": "Quality Education Fund",
+    "title": "Educational Excellence",
     "category": "Education",
     "category_bg": "#3498DB",
     "card_bg": "#FF444A26",
@@ -86,11 +86,11 @@
   {
     "id": 8,
     "picture": "https://i.ibb.co/Gvn26qx/Health.jpg",
-    "title": "Healthy Futures Initiative",
+    "title": "Healthy Living Hacks",
     "category": "Health",
     "category_bg": "#0052FF",
     "card_bg": "#0052FF26",
-    "text": "#FF5733",
+    "text": "#0052FF",
     "category-btn-bg": "#0052FF",
     "description": "The Healthy Futures Initiative is a dedicated effort to provide clean and safe drinking water for children in need. We believe that access to clean water is a fundamental right, and we are committed to ensuring that every child has the opportunity for a healthy future. Join us in making a significant impact on the lives of these children by supporting our cause.",
     "price": 200
@@ -98,11 +98,11 @@
   {
     "id": 9,
     "picture": "https://i.ibb.co/Gvn26qx/Health.jpg",
-    "title": "Healthy Futures Initiative",
+    "title": "Mindful Health Choices",
     "category": "Health",
     "category_bg": "#0052FF",
     "card_bg": "#0052FF26",
-    "text": "#FF5733",
+    "text": "#0052FF",
     "category-btn-bg": "#0052FF",
     "description": "The Healthy Futures Initiative is a dedicated effort to provide clean and safe drinking water for children in need. We believe that access to clean water is a fundamental right, and we are committed to ensuring that every child has the opportunity for a healthy future. Join us in making a significant impact on the lives of these children by supporting our cause.",
     "price": 200
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "picture": "https://i.ibb.co/1L4fn0F/Education.jpg",
-    "title": "Quality Education Fund",
+    "title": "Future-Focused Education",
     "category": "Education",
     "category_bg": "#3498DB",
     "card_bg": "#FF444A26",
@@ -122,7 +122,7 @@
   {
     "id": 11,
     "picture": "https://i.ibb.co/zbz87vK/Clothing.jpg",
-    "title": "Warmth & Comfort Drive",
+    "title": "Fashion Forward Finds",
     "category": "Clothing",
     "category_bg": "#27AE60",
     "card_bg": "#79C23F26",
@@ -134,7 +134,7 @@
   {
     "id": 12,
     "picture": "https://i.ibb.co/0sxDPz5/Food.jpg",
-    "title": "Nutritious Meals for All",
+    "title": "Nutrition Made Easy",
     "category": "Food",
     "category_bg": "#F39C12",
     "card_bg": "#F8714726",
