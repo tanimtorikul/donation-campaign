@@ -2,7 +2,7 @@
 
 const Banner = () => {
   return (
-    <div className="">
+    <div className="bg-[url('https://i.ibb.co/N6ntC0M/banner-bg.jpg')]">
       <div className="mt-12 lg:mt-40 ">
       <h2 className="text-2xl lg:text-5xl font-bold text-center">
         I Grow By Helping People In Need
