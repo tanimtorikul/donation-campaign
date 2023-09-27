@@ -3,23 +3,20 @@ import { PieChart, Pie, Cell } from "recharts";
 
 const Statistics = () => {
   const [donationData, setDonationData] = useState([]);
-  
-  
+
   useEffect(() => {
     const storedData = localStorage.getItem("donation-data");
     if (storedData) {
       setDonationData(JSON.parse(storedData));
     }
   }, []);
-  const yourDonation = donationData.reduce((total, item) => total + item, 0);
+  const yourDonation = donationData.reduce((total, item) => total + 1, 0);
 
   const data = [
-    { name: 'Your Donation', value: yourDonation },
-    { name: 'Total Donation', value: 12 },
+    { name: "Your Donation", value: yourDonation },
+    { name: "Total Donation", value: 12 - yourDonation },
   ];
-console.log(donationData);
-
- 
+  console.log(yourDonation);
 
   const COLORS = ["#FF444A", "#00C49F"];
 

@@ -1,7 +1,10 @@
+
+
 const Banner = () => {
   return (
-    <div className="mt-40">
-      <h2 className="text-5xl font-bold text-center">
+    <div className="">
+      <div className="mt-12 lg:mt-40 ">
+      <h2 className="text-2xl lg:text-5xl font-bold text-center">
         I Grow By Helping People In Need
       </h2>
       <div className="flex items-center justify-center mt-10">
@@ -14,6 +17,7 @@ const Banner = () => {
           Search
         </button>
       </div>
+    </div>
     </div>
   );
 };
