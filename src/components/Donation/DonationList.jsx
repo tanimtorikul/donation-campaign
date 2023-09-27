@@ -7,6 +7,7 @@ const DonationList = () => {
   const [donatedData, setDonatedData] = useState([]);
   const [noDataFound, setNoDataFound] = useState("No Data Found");
   const [showBtn, setShowBtn] = useState(true);
+  const [removeBtn, setRemoveBtn] = useState(true);
   const [dataLength, setDataLength] = useState(4);
   const donations = useLoaderData();
   useEffect(() => {
@@ -23,6 +24,7 @@ const DonationList = () => {
     localStorage.clear();
     setDonatedData([]);
     setShowBtn(false);
+    setRemoveBtn(true);
     setNoDataFound("No Data Found");
   };
   const handleSeeAll = () => {
@@ -32,7 +34,7 @@ const DonationList = () => {
   return (
     <div>
       <div className="flex justify-center">
-        {showBtn && donatedData.length > 0 && (
+        {removeBtn && donatedData.length > 0 && (
           <button
             onClick={handleRemoveAll}
             className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700"

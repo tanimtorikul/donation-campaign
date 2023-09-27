@@ -82,10 +82,10 @@ const Statistics = () => {
         </div>
         <div className="legend flex justify-center gap-6">
           {data.map((entry, index) => (
-            <div key={`legend-${index}`} className="flex items-center mb-2 ">
+            <div key={`legend-${index}`} className="flex flex-col-reverse lg:flex-row items-center mb-2 ">
               <div className="text-sm">{entry.name}</div>
               <div
-                className="lg:w-24 h-4 mr-2"
+                className="w-16 lg:w-24 h-4 mr-2"
                 style={{ backgroundColor: COLORS[index % COLORS.length] }}
               ></div>
             </div>
