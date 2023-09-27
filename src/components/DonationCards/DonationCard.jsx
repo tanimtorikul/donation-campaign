@@ -29,7 +29,7 @@ const DonationCard = ({ card }) => {
           >
             {category}
           </h2>
-          <p className="card-title text-sm lg:text-lg" style={titleColor}>
+          <p className="card-title text-lg md:text-sm lg:text-lg" style={titleColor}>
             {title}
           </p>
         </div>
