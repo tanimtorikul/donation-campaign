@@ -15,7 +15,7 @@ const Statistics = () => {
 
   const data = [
     { name: 'Your Donation', value: yourDonation },
-    { name: 'Total Donation', value: 24 },
+    { name: 'Total Donation', value: 12 },
   ];
 console.log(donationData);
 

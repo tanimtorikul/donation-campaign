@@ -34,6 +34,7 @@ const DonationCard = ({ card }) => {
           </p>
         </div>
       </div>
+      
     </Link>
   );
 };
