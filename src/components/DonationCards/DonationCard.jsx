@@ -24,12 +24,12 @@ const DonationCard = ({ card }) => {
         </figure>
         <div className="card-body rounded-lg " style={cardBg}>
           <h2
-            className="w-1/3 rounded text-sm font-medium flex justify-center"
+            className="w-20 lg:w-1/3 rounded text-sm font-medium flex justify-center"
             style={categoryColor}
           >
             {category}
           </h2>
-          <p className="card-title" style={titleColor}>
+          <p className="card-title text-sm lg:text-lg" style={titleColor}>
             {title}
           </p>
         </div>

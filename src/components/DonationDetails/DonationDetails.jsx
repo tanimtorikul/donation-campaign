@@ -47,8 +47,10 @@ const DonationDetails = () => {
           </button>
         </div>
       </div>
-      <h2 className="text-[40px] font-bold mt-14 mb-6">{donation.title}</h2>
+     <div className="text-center lg:text-start">
+     <h2 className="text-2xl lg:text-[40px] font-extrabold mt-14 mb-6">{donation.title}</h2>
       <p className="pb-40">{donation.description}</p>
+     </div>
       <ToastContainer />
     </div>
   );

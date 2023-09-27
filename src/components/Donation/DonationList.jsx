@@ -32,7 +32,7 @@ const DonationList = () => {
   return (
     <div>
       <div className="flex justify-center">
-        {showBtn && (
+        {showBtn && donatedData.length > 0 && (
           <button
             onClick={handleRemoveAll}
             className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700"
