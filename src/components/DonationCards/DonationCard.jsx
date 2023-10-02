@@ -22,7 +22,7 @@ const DonationCard = ({ card }) => {
             <img src={picture} alt="Shoes" />
           </div>
         </figure>
-        <div className="card-body rounded-lg " style={cardBg}>
+        <div className="card-body rounded-b-xl " style={cardBg}>
           <h2
             className="w-20 lg:w-1/3 rounded text-sm font-medium flex justify-center"
             style={categoryColor}

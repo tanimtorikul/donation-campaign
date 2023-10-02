@@ -12,14 +12,15 @@ const Banner = ({ cards }) => {
   };
   const handleSearch = () => {
     // console.log(searchValue);
-    const filtered = cards.filter((card) =>
-      card.category.toLowerCase().includes(searchValue.toLowerCase()) ||
-      card.title.toLowerCase().includes(searchValue.toLowerCase())
+    const filtered = cards.filter(
+      (card) =>
+        card.category.toLowerCase().includes(searchValue.toLowerCase()) ||
+        card.title.toLowerCase().includes(searchValue.toLowerCase())
     );
-
+    setSearchValue("");
     setFilteredCards(filtered);
   };
-  console.log(filteredCards);
+  // console.log(filteredCards);
 
   return (
     <div className="mt-12 lg:mt-40 ">
@@ -42,7 +43,13 @@ const Banner = ({ cards }) => {
         </button>
       </div>
       <div>
-        <DonationCards cards={filteredCards} />
+        {filteredCards.length === 0 ? (
+          <p className="text-center mt-4 text-red-500 text-lg font-bold">
+            No data found
+          </p>
+        ) : (
+          <DonationCards cards={filteredCards} />
+        )}
       </div>
     </div>
   );
