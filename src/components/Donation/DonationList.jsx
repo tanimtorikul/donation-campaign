@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoredDonationData } from "../../Utlity/LocalStorage";
 import DonationSavedCard from "./DonationSavedCard";
+import { Helmet } from "react-helmet-async";
 
 const DonationList = () => {
   const [donatedData, setDonatedData] = useState([]);
@@ -33,6 +34,9 @@ const DonationList = () => {
   };
   return (
     <div>
+      <Helmet>
+        <title>Donated Lists</title>
+      </Helmet>
       <div className="flex justify-center">
         {removeBtn && donatedData.length > 0 && (
           <button

@@ -6,6 +6,7 @@ import {
   getStoredDonationData,
   saveDonationData,
 } from "../../Utlity/LocalStorage";
+import { Helmet } from "react-helmet-async";
 
 const DonationDetails = () => {
   const [donateBtn, setDonateBtn] = useState("Donate $");
@@ -41,6 +42,9 @@ const DonationDetails = () => {
   };
   return (
     <div className="px-4 lg:px-0 lg:mt-24">
+      <Helmet>
+        <title>Donation Details</title>
+      </Helmet>
       <div className="relative">
         <img
           src={donation.picture}

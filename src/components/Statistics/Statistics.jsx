@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 
 const Statistics = () => {
@@ -56,6 +57,9 @@ const Statistics = () => {
 
   return (
     <div className="flex justify-center">
+      <Helmet>
+        <title>Donation Statistics</title>
+      </Helmet>
       <div className="">
         <div className="chart-container">
           <ResponsiveContainer width="100%" height={400}>
